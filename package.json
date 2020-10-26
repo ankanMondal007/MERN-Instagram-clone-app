@@ -1,0 +1,16 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "Instagram Clone App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "resolutions": {
+    "graceful-fs": "4.2.4"
+  }
+}
